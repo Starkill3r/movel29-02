@@ -7,13 +7,19 @@
 </ion-header>
 
 <ion-content padding>
-<ion-list>
-  <ion-item *ngFor="let item of items">
+
+  <ion-card>
+      <ion-img style="width: 360px; height: 360px" src="https://png.pngtree.com/element_pic/00/16/07/19578dcf4437384.jpg"></ion-img>
+    <ion-card-header>
+      <!--<ion-card-subtitle>Card Subtitle</ion-card-subtitle>-->
+      <ion-card-content>Card Subtitle</ion-card-content>
+      <ion-card-title>Card Title</ion-card-title>
+    </ion-card-header>
+  <ion-card-content>
+    Keep close to Nature's heart... and break clear away, once in awhile,
+    and climb a mountain or spend a week in the woods. Wash your spirit clean.
+  
     
-    <ion-label>{{item.text}}</ion-label>
-  </ion-item>
-<ion-thumbnail slot="start">
-      <ion-img [src]="assets/cachorro.jpg"></ion-img>
-    </ion-thumbnail>
-</ion-list>
+</ion-card-content>
+</ion-card>
 </ion-content>
